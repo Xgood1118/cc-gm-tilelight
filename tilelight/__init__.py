@@ -1,1 +1,1 @@
-"""瓦片光照传播"""
+from .core import *  # noqa: F401,F403
