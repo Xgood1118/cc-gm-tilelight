@@ -26,3 +26,8 @@ def attenuation(dist):
     """衰减函数"""
     raise NotImplementedError("attenuation 尚未实现")
 
+
+def load_map(path):
+    """读入与落盘辅助"""
+    raise NotImplementedError("load_map 尚未实现")
+
