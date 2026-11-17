@@ -12,11 +12,6 @@ class TileMap:
     walls: set
 
 
-def TileMap:
-    """class"""
-    raise NotImplementedError("TileMap 尚未实现")
-
-
 def propagate(map, lights):
     """传播光照"""
     raise NotImplementedError("propagate 尚未实现")
@@ -30,9 +25,4 @@ def occluders(map, x, y):
 def attenuation(dist):
     """衰减函数"""
     raise NotImplementedError("attenuation 尚未实现")
-
-
-def load_map(path):
-    """读入与落盘辅助"""
-    raise NotImplementedError("load_map 尚未实现")
 
