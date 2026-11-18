@@ -12,6 +12,8 @@ class TileMap:
     walls: set
 
 
+
+
 def propagate(map, lights):
     """传播光照"""
     raise NotImplementedError("propagate 尚未实现")
